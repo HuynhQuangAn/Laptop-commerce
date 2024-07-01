@@ -1,0 +1,478 @@
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameContainer,
+.frameWrapper {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameWrapper {
+  align-self: stretch;
+  height: 300px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+}
+.frameContainer {
+  width: 85px;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-silver-200);
+  height: 58px;
+  flex-direction: column;
+  padding: var(--padding-10xs);
+}
+.instanceContainer,
+.instanceWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.instanceContainer {
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.instanceWrapper {
+  width: 303px;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  box-sizing: border-box;
+  z-index: 0;
+}
+.frameIcon1 {
+  width: 20px;
+  position: absolute;
+  margin: 0 !important;
+  top: 45px;
+  left: 314px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameGroup {
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-2xl);
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.frameParent,
+.macbookAirM120208gbRamWrapper {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.frameParent {
+  width: 450px;
+  background-color: var(--color-white);
+  flex-shrink: 0;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.macbookAirM120208gbRamWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  font-size: var(--font-size-2xl);
+}
+.vectorIcon {
+  width: 19px;
+  position: relative;
+  height: 18px;
+}
+.vectorParent {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.b {
+  position: relative;
+}
+.wrapper {
+  width: 137px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.b1 {
+  position: relative;
+  text-decoration: line-through;
+}
+.container,
+.frameParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container {
+  flex: 1;
+  align-items: flex-end;
+  font-size: var(--font-size-mid);
+  color: var(--color-dimgray-200);
+}
+.frameParent2 {
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-3xs) var(--padding-17xl) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-2xl);
+  color: var(--color-royalblue);
+}
+.component15Icon {
+  display: none;
+}
+.component15Icon,
+.component16Icon {
+  width: 31px;
+  position: relative;
+  height: 31px;
+}
+.component15Parent,
+.frameParent3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.frameParent3 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-17xl) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.frameIcon2,
+.frameParent5 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameIcon2 {
+  width: 12px;
+  position: relative;
+  height: 12px;
+}
+.frameParent5 {
+  width: 151px;
+  height: 27px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.tngGiMicrosoft {
+  font-size: var(--font-size-xs);
+}
+.tngGiMicrosoftContainer {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-black);
+  font-size: var(--font-size-6xs);
+}
+.frameParent4,
+.uICQuynThng52023Parent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.uICQuynThng52023Parent {
+  width: 382px;
+  justify-content: center;
+  padding: 0 var(--padding-3xs) 0 var(--padding-4xl);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  color: var(--color-red);
+}
+.frameParent4 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.muaNgayWrapper {
+  border-radius: var(--br-6xs);
+  background-color: var(--color-royalblue);
+  flex-direction: row;
+  padding: var(--padding-smi) 0;
+  cursor: pointer;
+}
+.frameParent6,
+.muaNgayWrapper,
+.thmVoGiHngWrapper {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thmVoGiHngWrapper {
+  border-radius: var(--br-6xs);
+  background-color: var(--color-royalblue);
+  flex-direction: column;
+  padding: var(--padding-smi) 0;
+}
+.frameParent6 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  color: var(--color-white);
+}
+.frameParent1,
+.instanceGroup {
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+}
+.instanceGroup {
+  width: 1566px;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-314xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.macbookAirM11 {
+  font-family: var(--font-fira-sans);
+}
+.macbookAirM1LMyTnhXc {
+  margin: 0;
+}
+.tngThiGianSDngViTh {
+  margin-bottom: 0;
+}
+.chipM1DoAppleThitKTo {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-4xl);
+}
+.macbookAirM1Container {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.macbookAirM1LMyTnhXcWrapper {
+  align-self: stretch;
+  height: 587px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-314xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-mid);
+}
+.instanceParent,
+.thngTinWrapper {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.instanceParent {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1566px;
+  height: 1185px;
+  flex-direction: column;
+  padding: var(--padding-51xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.thngTinWrapper {
+  flex-direction: row;
+  padding: var(--padding-3xs);
+}
+.footerThongTin,
+.thuCIMiParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.thuCIMiParent {
+  width: 241px;
+  overflow: hidden;
+  padding: 0 var(--padding-mini) var(--padding-15xl) var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-4xl);
+  color: var(--color-gray-200);
+}
+.footerThongTin {
+  align-self: stretch;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.nhGiCht {
+  position: relative;
+  white-space: pre-wrap;
+}
+.span {
+  color: var(--color-royalblue);
+}
+.categoryItem {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.cngTyCContainer {
+  flex: 1;
+  position: relative;
+}
+.categoryItemParent,
+.cngTyCPhnHesmanVitNaWrapper {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.cngTyCPhnHesmanVitNaWrapper {
+  border-top: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  height: 155px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-3xs) 0;
+  color: var(--color-gray-200);
+}
+.categoryItemParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+.headingNewletter {
+  position: absolute;
+  top: 1249px;
+  left: 0;
+  background-color: var(--color-gray-300);
+  width: 1566px;
+  height: 535px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-14xl) var(--padding-314xl) 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightgray-100);
+}
+.iconLaptop,
+.iconMac,
+.iconThink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.iconLaptop,
+.iconMac {
+  align-self: stretch;
+}
+.iconMac {
+  width: 58px;
+  box-sizing: border-box;
+}
+.iconLaptop {
+  flex: 1;
+}
+.vectorIcon5 {
+  width: 21px;
+  position: relative;
+  height: 21px;
+}
+.btnSearch {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs);
+}
+.vectorIcon6 {
+  width: 21px;
+  position: relative;
+  height: 22.6px;
+}
+.btnBag {
+  flex-direction: row;
+  padding: var(--padding-10xs) var(--padding-8xs);
+}
+.btnBag,
+.component6,
+.iconThinkParent {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconThinkParent {
+  align-self: stretch;
+  height: 64px;
+  flex-shrink: 0;
+  flex-direction: row;
+  gap: var(--gap-41xl);
+}
+.component6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray-100);
+  width: 1566px;
+  flex-direction: column;
+  padding: 0 var(--padding-314xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-2xl);
+  color: var(--color-gray-600);
+}
+.chiTietSanPham {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 982px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-fira-sans);
+}

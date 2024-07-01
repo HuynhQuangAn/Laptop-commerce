@@ -1,0 +1,375 @@
+.frameChild {
+  width: 13px;
+  position: relative;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-silver-700);
+  box-sizing: border-box;
+  height: 13px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.instanceWrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.instanceChild {
+  width: 98px;
+  position: relative;
+  height: 92px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.macbookPro13InchM210CorWrapper {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div {
+  position: relative;
+}
+.container,
+.wrapper {
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+}
+.wrapper {
+  width: 17px;
+  border-radius: var(--br-10xs) 0 0 var(--br-10xs);
+  border: 0.5px solid var(--color-gainsboro-200);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 var(--padding-9xs);
+}
+.container {
+  border-top: 0.5px solid var(--color-gainsboro-200);
+  border-bottom: 0.5px solid var(--color-gainsboro-200);
+  height: 17px;
+  padding: 0 var(--padding-3xs);
+  font-size: var(--font-size-7xs);
+  color: var(--color-black);
+}
+.container,
+.frame,
+.frameGroup,
+.instanceContainer {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.frame {
+  width: 17px;
+  border-radius: 0 var(--br-10xs) var(--br-10xs) 0;
+  border: 0.5px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  height: 17px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.frameGroup,
+.instanceContainer {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.instanceContainer {
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-6xl) var(--padding-lg);
+  color: var(--color-gray-100);
+}
+.div3 {
+  width: 75px;
+  position: relative;
+  display: inline-block;
+}
+.frameDiv {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xl) var(--padding-lg);
+  color: var(--color-dimgray-100);
+}
+.vectorIcon {
+  width: 12px;
+  position: relative;
+  height: 13.1px;
+}
+.frameParent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  height: 122px;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+}
+.chnTtCWrapper,
+.frameParent,
+.frameParent9 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.chnTtCWrapper {
+  justify-content: flex-start;
+  padding: var(--padding-18xl) 0;
+}
+.frameParent9 {
+  width: 120px;
+  flex-shrink: 0;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.tngThanhTon {
+  width: 176px;
+  position: relative;
+  display: inline-block;
+}
+.tngThanhTonSnPhmWrapper,
+.wrapper17 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xl) 0 var(--padding-6xl) var(--padding-lg);
+}
+.wrapper17 {
+  align-items: flex-start;
+  padding: var(--padding-6xl) 0;
+  color: var(--color-royalblue);
+}
+.muaHngWrapper {
+  width: 168px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-royalblue);
+  height: 46px;
+  flex-shrink: 0;
+  padding: var(--padding-8xs) var(--padding-6xs);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.frameParent8,
+.frameWrapper,
+.muaHngWrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameWrapper {
+  padding: var(--padding-8xs);
+  color: var(--color-white);
+}
+.frameParent8 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  height: 122px;
+  flex-shrink: 0;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+}
+.instanceParent,
+.thngTinWrapper {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.instanceParent {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 900px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs) var(--padding-mini);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.thngTinWrapper {
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs);
+}
+.footerThongTin,
+.thuCIMiParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.thuCIMiParent {
+  width: 241px;
+  overflow: hidden;
+  padding: 0 var(--padding-mini) var(--padding-15xl) var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-4xl);
+  color: var(--color-gray-200);
+}
+.footerThongTin {
+  align-self: stretch;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.nhGiCht {
+  position: relative;
+  white-space: pre-wrap;
+}
+.span {
+  color: var(--color-royalblue);
+}
+.blankLine {
+  margin: 0;
+}
+.categoryItem {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.cngTyCContainer {
+  flex: 1;
+  position: relative;
+}
+.categoryItemParent,
+.cngTyCPhnHesmanVitNaWrapper {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.cngTyCPhnHesmanVitNaWrapper {
+  border-top: 1px solid var(--color-gray-200);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-3xs) 0;
+  color: var(--color-gray-200);
+}
+.categoryItemParent {
+  flex-direction: column;
+  align-items: center;
+}
+.headingNewletter,
+.iconThink {
+  display: flex;
+  flex-direction: row;
+}
+.headingNewletter {
+  position: absolute;
+  top: 866px;
+  left: 0;
+  background-color: var(--color-gray-300);
+  width: 900px;
+  height: 535px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-14xl) var(--padding-mini) 0;
+  box-sizing: border-box;
+  color: var(--color-lightgray-100);
+}
+.iconThink {
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.vectorIcon6 {
+  width: 21px;
+  position: relative;
+  height: 21px;
+}
+.iconSearch {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs);
+}
+.vectorIcon7 {
+  width: 21px;
+  position: relative;
+  height: 22.6px;
+}
+.iconBag {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs) var(--padding-8xs);
+}
+.iconNavigation {
+  width: 41px;
+  position: relative;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconSearchParent,
+.iconThinkParent {
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.iconSearchParent {
+  align-self: stretch;
+  width: 180px;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+  gap: var(--gap-21xl);
+}
+.iconThinkParent {
+  width: 900px;
+  background-color: var(--color-darkslategray-100);
+  height: 64px;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-mini);
+}
+.gioHangIpadInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-2xl);
+  color: var(--color-gray-600);
+}
+.gioHangIpad {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1194px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-fira-sans);
+}

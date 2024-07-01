@@ -1,0 +1,208 @@
+.thnk {
+  position: relative;
+}
+.iconThink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.vectorIcon {
+  width: 21px;
+  position: relative;
+  height: 21px;
+}
+.iconSearch {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs);
+}
+.vectorIcon1 {
+  width: 21px;
+  position: relative;
+  height: 22.6px;
+}
+.iconBag {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs) var(--padding-8xs);
+}
+.iconNavigation {
+  width: 41px;
+  position: relative;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconSearchParent,
+.iconThinkParent {
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.iconSearchParent {
+  align-self: stretch;
+  width: 180px;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+  gap: var(--gap-21xl);
+}
+.iconThinkParent {
+  width: 900px;
+  background-color: var(--color-darkslategray-100);
+  height: 64px;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-mini);
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sildeItemChild {
+  width: 900px;
+  position: relative;
+  height: 281px;
+  object-fit: cover;
+}
+.sildeItem1,
+.sildeItem2,
+.sildeItem3,
+.sildeItem4,
+.sildeItem5 {
+  position: absolute;
+  top: 0;
+  left: 2700px;
+  background-color: var(--color-white);
+  width: 900px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sildeItem2,
+.sildeItem3,
+.sildeItem4,
+.sildeItem5 {
+  left: 3600px;
+}
+.sildeItem3,
+.sildeItem4,
+.sildeItem5 {
+  left: 0;
+}
+.sildeItem4,
+.sildeItem5 {
+  left: 900px;
+}
+.sildeItem5 {
+  left: 1800px;
+}
+.ipadSlideItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4500px;
+  height: 281px;
+}
+.iconNavigationDam,
+.iconNavigationNhat,
+.iconNavigationNhat1,
+.iconNavigationNhat2,
+.iconNavigationNhat3 {
+  position: absolute;
+  height: 100%;
+  width: 13.64%;
+  top: 0;
+  right: 86.36%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconNavigationDam,
+.iconNavigationNhat1,
+.iconNavigationNhat2,
+.iconNavigationNhat3 {
+  right: 64.73%;
+  left: 21.64%;
+}
+.iconNavigationNhat1,
+.iconNavigationNhat2,
+.iconNavigationNhat3 {
+  right: 43.18%;
+  left: 43.18%;
+}
+.iconNavigationNhat2,
+.iconNavigationNhat3 {
+  right: 21.55%;
+  left: 64.82%;
+}
+.iconNavigationNhat3 {
+  right: 0;
+  left: 86.36%;
+}
+.component8 {
+  width: 110px;
+  position: relative;
+  height: 15px;
+  display: none;
+}
+.navigationIpad {
+  position: absolute;
+  top: 246px;
+  left: 385px;
+  width: 130px;
+  height: 110px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.rightIcon {
+  position: absolute;
+  top: 78px;
+  left: 773px;
+  width: 127px;
+  height: 127px;
+}
+.instanceParent,
+.sildeItem {
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+.sildeItem {
+  width: 900px;
+  height: 281px;
+  flex-shrink: 0;
+}
+.instanceParent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-gray-600);
+  font-family: var(--font-fira-sans);
+}
